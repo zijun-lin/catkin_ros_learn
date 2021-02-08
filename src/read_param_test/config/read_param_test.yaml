@@ -1,0 +1,7 @@
+noise: 10.0
+string_var: abc
+vector_var: [1,2,3]
+
+control:
+  a : 12.3
+  b : 996

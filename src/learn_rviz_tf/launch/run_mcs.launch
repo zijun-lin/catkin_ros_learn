@@ -1,0 +1,5 @@
+<launch>
+    <node name="link1_broadcaster" pkg="tf2_ros" type="static_transform_publisher" args="0.3 0 0 0 0 0 1 gps camera" />
+    <node name="moving_coordinate_system" type="moving_coordinate_system" pkg="learn_rviz_tf" output="screen" />
+
+</launch>
